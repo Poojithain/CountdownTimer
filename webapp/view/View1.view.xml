@@ -1,0 +1,18 @@
+<mvc:View xmlns:m="sap.m" controllerName="countdowntimer.countdowntimer.controller.View1"
+    xmlns:mvc="sap.ui.core.mvc"
+    xmlns:l="sap.ui.layout"
+    xmlns="sap.m">
+
+    <Page id="page" title="{i18n>title}">
+      <l:VerticalLayout >
+        <l:HorizontalLayout content="{tiles>/}">
+              
+          <GenericTile class="sapUiTinyMarginBegin sapUiTinyMarginTop tileLayout" header="{tiles>title}" press="press(${tiles>route})">
+	</GenericTile>
+        
+      
+          </l:HorizontalLayout>
+      </l:VerticalLayout>
+
+    </Page>
+</mvc:View>
